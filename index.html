@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">Dwp<b>.</b></div>
+            <ul class="nav_items">
+                <li class="nav__item"><a href="#">Home</a></li>
+                <li class="nav__item"><a href="#">About</a></li>
+                <li class="nav__item"><a href="#">Skills</a></li>
+                <li class="nav__item"><a href="#">Blog</a></li>
+            </ul>
+            <div class="social">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github-square"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="top_line">Hello</span>
+                <h1>I'm <span class="multi_text">Developer</span></h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, optio deleniti distinctio unde est fugit sapiente quas ad asperiores accusamus!</p>
+                <div class="btn">
+                    <button>Download CV</button>
+                    <button>Hire Me</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="img__box">
+                    <img id="splash" src="./img/pngaaa.com-120234.png" alt="">
+                    <img src="./img/people.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        let typingEffect = new Typed('.multi_text', {
+            strings: ['Developer', 'Designer', 'Freelancer'],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        }); 
+    </script>
+</body>
+</html>
